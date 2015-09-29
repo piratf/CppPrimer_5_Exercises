@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 #include "Sales_item.h"
-using namespace std;
 
 int main() {
     freopen("ex.1.25.txt", "r", stdin);

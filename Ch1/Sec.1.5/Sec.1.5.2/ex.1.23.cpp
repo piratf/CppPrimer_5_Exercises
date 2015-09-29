@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 #include "../Sales_item.h"
-using namespace std;
 
 int main() {
     freopen("ex.1.23.txt", "r", stdin);
@@ -22,11 +21,11 @@ int main() {
         }
     }
     if (!occuredItem.size()) {
-        cerr << "ex.1.23: No data!?" << endl;
+        std::cerr << "ex.1.23: No data!?" << std::endl;
         return -1;
     }
     for (i = 0; i < occuredItem.size(); ++i) {
-        cout << occuredItem[i] << endl;
+        std::cout << occuredItem[i] << std::endl;
     }
     return 0;
 }
