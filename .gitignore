@@ -1,3 +1,5 @@
 *.zip
+*.exe
+*.html
 GCC_4_7_0
 test.*
