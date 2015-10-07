@@ -1,3 +1,5 @@
+// Q: Write a program that reads two Sales_item objects that have the same ISBN and produces their sum.
+
 #include <iostream>
 #include "../Sales_item.h"
 

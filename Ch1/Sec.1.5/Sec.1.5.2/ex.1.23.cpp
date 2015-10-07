@@ -1,9 +1,13 @@
+// Q: Write a program that reads several transactions and counts how many transactions occur for each ISBN.
+// 
+// Next question is test this program, the test data is in the ex.1.24.txt file.
+
 #include <iostream>
 #include <vector>
 #include "../Sales_item.h"
 
 int main() {
-    freopen("ex.1.23.txt", "r", stdin);
+    freopen("ex.1.24.txt", "r", stdin);
     Sales_item item;
     std::vector<Sales_item> occuredItem;
     unsigned int i = 0;

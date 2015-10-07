@@ -1,3 +1,5 @@
+// Q: Write a program that reads several transactions for the same ISBN. Write the sum of all the transactions that were read.
+
 #include <iostream>
 #include "../Sales_item.h"
 using namespace std;
@@ -16,6 +18,6 @@ int main() {
             itemSum += itemVar;
         }
     }
-    std::cout << "The sum of two items is: " << itemSum << endl;
+    std::cout << "The sum of items is: " << itemSum << endl;
     return 0;
 }
