@@ -1,3 +1,5 @@
+// Q: Write a program that prompts the user for two integets. Print each number in the range specified by those two integers.
+
 #include <iostream>
 
 int main() {
