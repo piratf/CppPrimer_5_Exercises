@@ -2,7 +2,7 @@
 exercises record
 
 complier version: `g++ 4.9.2`
-options: `-std=c++11 -pedantic -Wall`
+- Use `-std=c++11`(recommend: `-pedantic -Wall`) flag for compiling.
 
 Exercise answers about the book, I wrote it by myself. 
-please posting issues to help correct the bugs, thank you!
+- Have you discovered incorrect information? [Submit](https://github.com/pezy/CppPrimer/issues/new).
