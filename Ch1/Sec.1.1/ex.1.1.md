@@ -1,4 +1,8 @@
+---
+
 Q: Review the documentation for your compiler and determine what file naming convention it uses. Compile and run the main program form page2.
+
+---
 
 A: I'm using g++ 4.9.2. I found the documentation at [g++(1) - Linux man page][g++(1) - Linux man page]
 
@@ -10,7 +14,8 @@ C++源文件按照惯例使用“`.C`, `.cc`, `.cpp`, `.CPP`, `.c++`, `.cp`, 或
 
 ---
 
-running program: prog1.cpp
+Codes in file `ex.1.1.cpp`.
+running program: ex.1.1.cpp
 
 ![编译和运行][编译和运行]
 
