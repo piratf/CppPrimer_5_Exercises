@@ -18,4 +18,5 @@ int main() {
     }
 
     cout << upt << endl;
+    return 0;
 }

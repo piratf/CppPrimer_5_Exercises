@@ -11,4 +11,5 @@ int main() {
         ch = 'X';
     }
     cout << " after process: " << ori << endl;
+    return 0;
 }

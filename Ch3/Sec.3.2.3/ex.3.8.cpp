@@ -19,4 +19,5 @@ int main() {
         ori[i] = 'X';
     }
     cout << " after process with for: " << ori << endl;
+    return 0;
 }
