@@ -9,6 +9,12 @@ Q: Explain each of the following definitions, Indicate whether any are illegal a
 
 A: 
 
-    (a) double* dp = &i;    // illegal, different type between two operand.
-    (b) int *ip = i;        // illegal, can assign an int to a pointer
-    (c) int *p = &i;        // vaild.
+> + (a) double* dp = &i;
+
+illegal, different type between two operand.
+> + (b) int *ip = i;    
+
+illegal, can assign an int to a pointer
+> + (c) int *p = &i;    
+
+vaild.

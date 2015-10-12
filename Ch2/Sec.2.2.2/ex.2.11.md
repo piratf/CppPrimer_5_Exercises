@@ -9,6 +9,12 @@ Q: Explain whether each of the following is a declaration or a definition:
 ---
 
 A:
-    (a) extern in ix = 1024;        // is a definition, even though is has keyword `extern`, but includes an explicit initializer, that is a definition;
-    (b) int iy;                     // clearly a definition;
-    (c) extern int iz;              // a typical declaration;
+> + (a) extern in ix = 1024;
+
+is a definition, even though is has keyword `extern`, but includes an explicit initializer, that is a definition;
+> + (b) int iy;             
+
+clearly a definition;
+> + (c) extern int iz;      
+
+a typical declaration;
