@@ -1,3 +1,5 @@
+// Q: Write a program to check whether your predictions were correct. If not study this section until you understand what the problem is.
+
 #include <iostream>
 
 int main() {
