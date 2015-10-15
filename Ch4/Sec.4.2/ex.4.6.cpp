@@ -9,7 +9,7 @@ using std::cin;
 int main() {
     int in = 0;
     while (cin >> in) {
-        // Better performence than (in % 2 == 1)
+        // Better performence than ((in % 2) == 1)
         if (in & 1) {
             cout << "The number is odd." << endl;
         }
@@ -17,4 +17,5 @@ int main() {
             cout << "The number is even." << endl;
         }
     }
+    return 0;
 }

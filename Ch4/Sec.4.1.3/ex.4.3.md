@@ -6,4 +6,4 @@ Q: Order of evaluation for most of the binary operators is left undefined to giv
 
 A: I think it is a acceptable trade-off. It is clearly enough to deduce the final answer, and this pitoff could be prevented if we never change the value of operand in one expression. For efficient that's acceptable.
 
-Unlike the short-circuit evaluation, which specifies the order of operations could ensure high performance, most of binary operators don't have the benefit even if we order that. So it is unnecessary.
+Unlike the short-circuit evaluations, which specifies the order of operations could ensure high performance and predictable evaluation process, most of binary operators don't have the benefit even if we order that. So it is unnecessary.
