@@ -35,6 +35,6 @@ A:
                 cout << "ival = 0\n";
             }
         }
-    (d) if (ival == 0) {
+    (d) if (ival ==  0) {
             ival = get_value();
         }
