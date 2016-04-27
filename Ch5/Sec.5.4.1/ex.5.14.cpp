@@ -8,7 +8,7 @@
 #include <cstring>
 
 int main() {
-    freopen("test.5.4.1.txt", "r", stdin);
+    freopen("test.5.14.txt", "r", stdin);
 
     const int N = 10;
 

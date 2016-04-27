@@ -49,11 +49,13 @@ Q: Each of the programs in the highlighted text on page 184 contains a common pr
 
 ---
 
-A: Missing `break` of each case.
+A: 
 
-B: The ix is be initialized in case 1, the flow transfer could bypass the initialization. We could defining `ix` in the block, or define `ix` without the initialization.
+(a): Missing `break` of each case.
 
-C: Error format, it's should be
+(b): The ix is initialized in case 1, the flow transfer could bypass the initialization. We could defining `ix` in the block, or define `ix` without the initialization.
+
+(c): Error format, it's should be
 
 ``` c++
 case 1: case 2: case 3: case 4: case 5:
@@ -61,4 +63,4 @@ case 1: case 2: case 3: case 4: case 5:
 
 The comma can not be the separator at here.
 
-D: The value associated with each `case` must be integral constant expressions.
+(d): The value associated with each `case` must be integral constant expressions.
